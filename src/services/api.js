@@ -15,6 +15,6 @@
 //     return axios.post(api+"StuLogin",data)
 // }
 
-{ /* export let getApi=()=>{     // here no need to send any data because in get we wont send any data
+{/* export let getApi=()=>{     // here no need to send any data because in get we wont send any data
     return axios.get(api+"getStuUsers")
-}*/ }
+}*/}

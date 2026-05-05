@@ -1,12 +1,12 @@
 import Header from "./Header"
 import Footer from "./Footer"
-import { useState } from "react"
-import Wish2 from "./Wish2"
-import Watch from "./Watch"
-import Password from "./Password"
-import Counter from "./Counter"
-import Wish from "./Wish"
-import InputVal from "./InputVal"
+// import { useState } from "react"
+// import Wish2 from "./Wish2"
+// import Watch from "./Watch"
+// import Password from "./Password"
+// import Counter from "./Counter"
+// import Wish from "./Wish"
+// import InputVal from "./InputVal"
 
 function About(){
 

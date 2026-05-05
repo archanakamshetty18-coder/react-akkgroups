@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { getApi } from '../services/api'
+// import React, { useEffect, useState } from "react";
+// import { getApi } from '../services/api'
 
 function DashboardUsers(){
 
