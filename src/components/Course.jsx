@@ -20,7 +20,7 @@ let Course = () => {
             id : 3,
             name : "Machine Design",
             img : "https://media.istockphoto.com/id/1135159626/photo/female-mechanical-engineer-designs-3d-engine-on-her-personal-computer-while-male-automation.jpg?s=612x612&w=0&k=20&c=U2Eu-LvJ-xunl2VDIBzYlRJDwC1sLA3HgrWG5Oxw_TY=",
-            content : "Machine Design in mechanical engineering is the systematic process of creating, analyzing, and developing mechanical components, systems, and machines. It merges principles of physics, material science, and mathematics to produce functional, safe, and cost-effective machinery.",
+            content : "Machine Design in mechanical engineering is the systematic process of creating, analyzing, and developing mechanical components, systems, and machines. It merges principles of physics, material science, and mathematics to produce functional, safe, and cost-effective machinery.Effective machine design balances functionality",
             duration : "60Hrs",
             fee : 12000
         },
@@ -28,7 +28,7 @@ let Course = () => {
             id : 4,
             name : "Mechatronics & Robotic",
             img : "https://media.gettyimages.com/id/2176081897/photo/woman-engineer-developer-in-robotics-arm-prototype-demonstrating-a-practical-robotics-in.jpg?s=612x612&w=gi&k=20&c=-W25zHTY3B9T-FrB-ilbb-HZUkvx0Xzt0c3DLPGu6Io=",
-            content : "Mechatronics and Robotics merge mechanical engineering with electronics, computer control, and software to design intelligent, automated systems. While mechatronics focuses on the broader synergy of these fields, robotics is a subset focusing on creating programmable, versatile machines. These fields are vital for Industry 5.0, automation, and smart manufacturing, offering high precision and collaborative capabilities.",
+            content : "Mechatronics and Robotics merge mechanical engineering with electronics, computer control, and software to design intelligent, automated systems. While mechatronics focuses on the broader synergy of these fields, robotics is a subset focusing on creating programmable, versatile machines. These fields are vital for Industry 5.0, automation.",
             duration : "70Hrs",
             fee : 20000
         },
@@ -36,7 +36,7 @@ let Course = () => {
             id : 5,
             name : "Automotive/Hybrid Electric",
             img : "https://static.vecteezy.com/system/resources/thumbnails/070/575/925/small/electric-car-internal-components-blueprint-visualization-future-automotive-engineering-and-sustainable-technology-design-photo.jpeg",
-            content : "Hybrid Electric Vehicles (HEVs) represent a critical intersection of mechanical engineering, electrical engineering, and power electronics, aiming to bridge the gap between traditional Internal Combustion Engine (ICE) vehicles and fully electric vehicles (BEVs).",
+            content : "Hybrid Electric Vehicles (HEVs) represent a critical intersection of mechanical engineering, electrical engineering, and power electronics, aiming to bridge the gap between traditional Internal Combustion Engine (ICE) vehicles and fully electric vehicles (BEVs) this field is moving beyond traditional grease and gears into sophisticated, software-defined vehicle architectures.",
             duration : "60Hrs",
             fee : 22000
         },
