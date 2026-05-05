@@ -36,7 +36,7 @@ let Course = () => {
             id : 5,
             name : "Automotive/Hybrid Electric",
             img : "https://static.vecteezy.com/system/resources/thumbnails/070/575/925/small/electric-car-internal-components-blueprint-visualization-future-automotive-engineering-and-sustainable-technology-design-photo.jpeg",
-            content : "Hybrid Electric Vehicles (HEVs) represent a critical intersection of mechanical engineering, electrical engineering, and power electronics, aiming to bridge the gap between traditional Internal Combustion Engine (ICE) vehicles and fully electric vehicles (BEVs) this field is moving beyond traditional grease and gears into sophisticated, software-defined vehicle architectures.",
+            content : "Hybrid Electric Vehicles (HEVs) represent a critical intersection of mechanical engineering, electrical engineering, and power electronics, aiming to bridge the gap between traditional Internal Combustion Engine (ICE) vehicles and fully electric vehicles (BEVs) this field is moving beyond traditional grease and gears.",
             duration : "60Hrs",
             fee : 22000
         },
