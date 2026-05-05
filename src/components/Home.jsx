@@ -47,7 +47,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className="row align-items-stretch">
-                                <div className="col-md-2 col-sm-4 col-12">
+                               {/* <div className="col-md-2 col-sm-4 col-12">
                                     <a href="/" routerlink='./courses/html' className='crse'>
                                         <i className="fa-brands fa-html5" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>HTML</h5>
@@ -82,31 +82,31 @@ function Home(){
                                         <i className="fa-brands fa-python" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>Python</h5>
                                     </a>
-                                </div>
-                                <div className="col-md-2 col-sm-4 col-12">
+                                </div> */}
+                                <div className="col-md-4 col-sm-4 col-12">
                                     <a href="/" routerlink='./courses/angular' className='crse'>
                                         <i className="fa-solid fa-gears" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>Fluid Mechanics</h5>
                                     </a>
                                 </div>
-                                <div className="col-md-2 col-sm-4 col-12">
+                                <div className="col-md-4 col-sm-4 col-12">
                                     <a href="/" routerlink='./courses/angular' className='crse'>
                                         <i className="fa-solid fa-robot" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>Robots</h5>
                                     </a>
                                 </div>
-                                <div className="col-md-2 col-sm-4 col-12">
+                                <div className="col-md-4 col-sm-4 col-12">
                                     <a href="/" routerlink='./courses/angular' className='crse'>
                                         <i className="fa-solid fa-charging-station" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>EV Cars</h5>
                                     </a>
                                 </div>
-                                <div className="col-md-2 col-sm-4 col-12">
+                               {/* <div className="col-md-2 col-sm-4 col-12">
                                     <a href="/" routerlink='./courses/angular' className='crse'>
                                         <i className="fa-brands fa-node-js" style={{color:"orange",fontSize:"25px",margin:"5px"}}></i>
                                         <h5>Node Js</h5>
                                     </a>
-                                </div>
+                                </div> */}
                                 
                             
                                 
