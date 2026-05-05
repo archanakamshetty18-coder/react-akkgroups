@@ -7,7 +7,7 @@ import Register from './Register'
 import Login from './Login'
 import Admin from './Admin'
 import PageNotFound from './PageNotFound'
-import Table from "./Table"
+// import Table from "./Table"
 // import Parent from "./Parent"
 
 // for dashboard lazy loading instead of below format we use another format 
@@ -38,8 +38,8 @@ function App(){
                 <Route path="register" element={<Register />}/>
                 <Route path="login" element={<Login />}/>
                 <Route path="admin" element={<Admin />} />
-                <Route path="table" element={<Table />} />
-              {/* <Route path="parent" element={<Parent />} />  */}  
+               {/* <Route path="table" element={<Table />} />
+                <Route path="parent" element={<Parent />} />  */}  
 
                 {/* Here we are writing child routing to re-direct it into required page */}
                 <Route path="dashboard" element={<Dashboard />} >

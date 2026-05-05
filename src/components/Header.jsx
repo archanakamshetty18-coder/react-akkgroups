@@ -21,9 +21,9 @@ function Header(){
                             <li className="nav-item">
                                 <Link to="/courses" className="nav-link">Courses</Link>
                             </li>
-                            <li className="nav-item">
+                          {/*  <li className="nav-item">
                                 <Link to="/table" className="nav-link">Table</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link">Contact</Link>
                             </li>
