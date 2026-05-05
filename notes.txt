@@ -1,0 +1,108 @@
+What is React JS?
+It’s open source library(JavaScript) to build Rich User Interfaces
+Used to develop Single Page Applications (Avilable one HTML Document)
+Developed & Maintained by FaceBook
+Released in 2013
+Current Version 18.0.0 (April,2022)
+Most popular frontend library as of today along with Angular
+React Js is very light weight compare to Angular
+Facebook Software Engineer, Jordan Walke, Created it.
+
+Key Features of React.js:
+
+1.Component-Based Architecture:
+React encourages building UIs as a collection of small, reusable components. Each component can have its own state and logic, making it easier to manage and reuse code.
+
+2.Virtual DOM:
+React uses a Virtual DOM, an in-memory representation of the real DOM. When the state of a component changes, React updates the Virtual DOM and then efficiently updates the actual DOM to reflect those changes. This results in better performance.
+
+3.Declarative UI:
+React allows developers to design UIs declaratively. Instead of describing how to achieve a certain state, developers describe what the UI should look like given the current state, and React takes care of the rendering.
+
+4.JSX Syntax:
+React uses JSX, a syntax extension that allows HTML-like code to be written within JavaScript. JSX makes it easier to write and understand the structure of UI components.
+
+5.Unidirectional Data Flow:
+In React, data flows in one direction, from parent to child components. This makes it easier to understand and debug the application as data changes propagate in a predictable manner.
+
+6.Ecosystem and Community:
+React has a large ecosystem of libraries, tools, and extensions. It is also backed by a strong community, making it easy to find resources, tutorials, and third-party components.
+
+
+Pre-Requisites:
+Basic Knowledge on HTML
+Basic Concepts on CSS
+Good understanding of Javascript with functions & ES6 Features
+Bootstrap knowledge is added advantage
+
+
+First Application Creation:
+VS Code(To Write the Code) and Node Js ,npm Install
+To Check Node Version: node --version or node -v
+v24.14.0
+To Check NPM Version: npm --version or npm -v
+11.9.0
+
+React Js Project(application) create 2 ways 1.JavaScript and 2.TypeScript
+
+npx create-react-app first-app, This command use for create Js base Project
+
+npx create-react-app first-app --template typescript, This command use for create TypeScript based Project
+
+once it is done..We suggest that you begin by typing:
+
+  cd akkgroups
+  npm start
+
+npm start(project Run Command)
+
+React JS Folder Structure:
+React is a very light weight when compare to Angular
+In React Very less files when compare to Angular(If already Know Angular)
+Node_Modules-The list of javascript libraries comes here, its automatically installed react js
+Public and src folders very important files in React
+In Public Folder index.html is a default page when run the react project
+Src folder means SOURCE CODE,if any components creates in src folder generally
+Project.json packages information,npm start  etc
+
+
+
+Prop and Props Destructuring : 
+    => Props means transferring data from one component to another components
+    => props means its a property. in a simple way transferring data from child components to parent component
+    => whatever the component we used in other component as a selector it is a child component. in which component we used that we called parent component 
+    => in the place of props we can use any keyword, its totally depends in us
+
+States : Hooks(useState, useEffect, etc.)
+        => States is nothing but to change or manupulate the current variable data of the component and also to handle it.
+        => directly we cant change the data, we can change it using Hooks(useState, useEffect, etc.) and this hook state work only in functional based components,
+        => after launching this hooks state class based components value decreased and it wont work in class based component
+
+    => we can call below both as method or function. if it is method we write it as useState() / useEffect()
+
+    useEffect Hooks: 
+        => we use it when our component load, 
+        => when we get data from the database, 
+        => or to update anything
+    
+    useState Hooks: 
+        => to chnage the current wave/component data we use useState
+        => for onspot change or existing value handling we use useState hooks
+        Syntax : 
+            => first we have to import the Syntax
+                -> import React {useState} from './react' then
+
+            => let [count,setCount]=useState()
+                -> count,setCount are our own defined variables
+                -> count is the variable which we taken for initialiazation of the value(by default which value we are taking..?) 
+                -> will declare count initialiazation value at useState(0(starting value)) then we will process further
+                -> setCount is not a varaible it's a function / method
+                -> we can update the required value using this setCount
+                -> this setCount may be anything 
+                    example : [count,setCount], [number,setNumber], [value,setValue] and so on....
+
+
+Service : Service is nothing but we will store all api's at 1 place and we will use it wherever it is required
+
+Lazy Loading : lazy loading is a technique used to load components or resources only when needed , rather than loading everything upfront. this approach helps improve performance especially for large applications, by reducing initial loading time and conserving resources untill necessary. 
+    => React built-in support for lazy loading can be used with React-lazy and Suspense, which are native features to implement code-splitting and lazy loading

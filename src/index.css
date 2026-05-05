@@ -1,0 +1,175 @@
+#demo img{
+    height: 400px;
+}
+
+#demo .carousel-indicators button{
+    background-color: blue;
+    height: 5px;
+    border-radius: 30px;
+}
+
+#demo .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
+    border-radius: 50%;
+}
+
+.navbar-brand img{
+    width: 50px;
+    opacity: 0.9;
+}
+
+#about img{
+    width: 100%;
+    height: 90%;
+}
+
+/* #about img:hover{
+    cursor : pointer;
+    transform: scale(1.01);
+    border: 2px solid rgb(87, 86, 86);
+    border-radius: 2px;
+    box-shadow: 0 0 10px;
+}*/
+
+/*#course{
+    background-color: aqua !important;
+}*/
+
+#course .card:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgb(131, 225, 232);
+}
+
+
+/* options i tried for when the card is hover text has to reflect
+
+.hov-container{
+    position: relative;
+    width: 250px;
+    height: 150px;
+}
+
+.hov-container .card{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hidden content 
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* show on hover 
+.hov-container:hover .overlay{
+    opacity: 1;
+}
+
+/* Bonus (slide effect instead of fade)
+.overlay {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.hov-container:hover .overlay {
+  transform: translateY(0);
+  opacity: 1;
+}*/
+
+
+
+/*.small-card img{
+    width: 100%;
+    height: 60px;
+}*/
+
+.align-items-stretch{
+    align-items: stretch !important;
+}
+
+.site-section{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.crse {
+    display: block;
+    padding: 10px 5px;
+    background: #ebeff2;
+    color: #0779e4;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#about .sym button{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+#course{
+    border-radius: 20px;
+}
+
+.owner img{
+    object-fit: cover;
+    width: 180px;
+    height: 220px;
+    display: block;
+    margin: 30px auto 10px auto;
+    border-radius: 10px;
+}
+
+.detail{
+    max-width: 450px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: white !important;
+    border-radius: 25px;
+    border: 3px solid rgb(4, 7, 185) !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.detail h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+}
+
+.detail h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.pay{
+    margin: 50px auto;
+}
+
