@@ -96,7 +96,7 @@ let InputValMul3=()=>{
             userData.append("email",email)
             userData.append("ph",phone)
             userData.append("pwd",password)
-            axios.post("http://ilandertech.com/api/index.php/Welcome/AddStuRegister",userData).then((res)=>{
+            axios.post("https://ilandertech.com/api/index.php/Welcome/AddStuRegister",userData).then((res)=>{
                 console.log(res.data)  //if stmnt is true answer will display, with the data from the output like already exists or register successfully, here whatever the output we get it should print @ bottom of the form.
                 // if status value 0 : data already exists, 1 : register successfully this outputs will come
 

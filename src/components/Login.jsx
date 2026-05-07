@@ -55,7 +55,7 @@ function Login(){
             let userData = new FormData()
             userData.append("userEmail",email)
             userData.append("userPassword",password)
-            axios.post("http://ilandertech.com/api/index.php/Welcome/StuLogin",userData).then((res)=>{
+            axios.post("https://ilandertech.com/api/index.php/Welcome/StuLogin",userData).then((res)=>{
                 console.log(res.data)
 
                 setMsg(res.data.message)
