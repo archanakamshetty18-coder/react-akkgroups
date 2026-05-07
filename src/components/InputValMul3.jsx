@@ -124,7 +124,7 @@ let InputValMul3=()=>{
         <>
         <div className="card mx-auto my-3 w-50">
             <div className="card-header text-center bg-danger text-white">
-                <h3>Register Form 3</h3>
+                <h3>Register Form</h3>
             </div>
             <div className="card-body">
                 <form action="">

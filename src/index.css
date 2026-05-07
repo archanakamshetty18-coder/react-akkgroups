@@ -13,6 +13,10 @@
     border-radius: 50%;
 }
 
+#demo .carousel-inner img{
+    height: 350px;
+}
+
 .navbar-brand img{
     width: 50px;
     opacity: 0.9;
@@ -105,7 +109,7 @@
 }
 
 .site-section{
-    margin-top: 10px;
+    margin-top: 3px;
     border-radius: 20px;
 }
 

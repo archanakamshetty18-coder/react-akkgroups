@@ -15,6 +15,15 @@ import Dashboard from './Dashboard'
 import DashboardHome from './DashboardHome'
 import DashboardUsers from './DashboardUsers'
 import React from "react"
+import ThermoDynamics from "./ThermoDynamics"
+import FluidMechanic from "./FluidMechanic"
+import MachineDesign from "./MachineDesign"
+import MechatronicsRobot from "./MechatronicsRobot"
+import AutomotiveHybrid from "./AutomotiveHybrid"
+import CadCam from "./CadCam"
+
+
+
 // import Cart from "./Cart"
 // import CheckedOut from "./CheckedOut"
 // import { Payment } from "./Payment"
@@ -47,6 +56,13 @@ function App(){
                     <Route path="dhome" element={<DashboardHome />} />
                     <Route path="dusers" element={<DashboardUsers />} />
                 </Route>
+                <Route path="thermodynamic" element={<ThermoDynamics />} />
+                <Route path="fluidmechanic" element={<FluidMechanic />} />
+                <Route path="machinedesign" element={<MachineDesign />} />
+                <Route path="mechatronicsrobot" element={<MechatronicsRobot />} />
+                <Route path="automotivehybrid" element= {<AutomotiveHybrid />} />
+                <Route path="cadcam" element={<CadCam />} />
+
 
                 {/* <Route path="cart" element={<Cart />} />
                 <Route path="checkedout" element={<CheckedOut />} />
