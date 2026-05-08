@@ -1,5 +1,6 @@
 import React from "react";
-import Course from "./Course";
+import DashCourse from "./DashCourse";
+// import Course from "./Course";
 
 function DashboardHome(){
     return(
@@ -7,7 +8,8 @@ function DashboardHome(){
             <div className="container text-center ">
                 <h1>Welcome to Home Page</h1> 
             </div>
-            <Course />
+            {/* <Course /> */}
+            <DashCourse />
         </>
     )
 }

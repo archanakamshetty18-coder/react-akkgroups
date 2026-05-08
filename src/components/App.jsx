@@ -21,12 +21,20 @@ import MachineDesign from "./MachineDesign"
 import MechatronicsRobot from "./MechatronicsRobot"
 import AutomotiveHybrid from "./AutomotiveHybrid"
 import CadCam from "./CadCam"
+import DashThermo from "./DashThermo"
 
 
 
 // import Cart from "./Cart"
 // import CheckedOut from "./CheckedOut"
 // import { Payment } from "./Payment"
+import DashCheckout from "./DashCheckout"
+import { DashPayment } from "./DashPayment"
+import DashFluid from "./DashFluid"
+import DashMachine from "./DashMachine"
+import DashMechatronics from "./DashMechatronics"
+import DashAutomotive from "./DashAutomotive"
+import DashCadCam from "./DashCadCam"
 
 // for dashboard lazy loading
 // let Dashboard = React.lazy(()=> import('./Dashboard'))  // with this format dashboard will open lately
@@ -56,6 +64,17 @@ function App(){
                     <Route path="dhome" element={<DashboardHome />} />
                     <Route path="dusers" element={<DashboardUsers />} />
                 </Route>
+                <Route path="dashthermo" element={<DashThermo />} />
+                <Route path="dashfluid" element={<DashFluid />} />
+                <Route path="dashmachine" element={<DashMachine />} />
+                <Route path="dashmechatronics" element={<DashMechatronics />} />
+                <Route path="dashautomotive" element={<DashAutomotive />} />
+                <Route path="dashcadcam" element={<DashCadCam />} />
+
+                <Route path="dashpayment" element={<DashPayment />} />
+                <Route path="dashcheckout" element={<DashCheckout />} />
+
+
                 <Route path="thermodynamic" element={<ThermoDynamics />} />
                 <Route path="fluidmechanic" element={<FluidMechanic />} />
                 <Route path="machinedesign" element={<MachineDesign />} />
@@ -64,9 +83,9 @@ function App(){
                 <Route path="cadcam" element={<CadCam />} />
 
 
-                {/* <Route path="cart" element={<Cart />} />
+                {/* <Route path="cart" element={<Cart />} /> 
                 <Route path="checkedout" element={<CheckedOut />} />
-                <Route path="payment" element={<Payment />} /> */}
+                <Route path="payment" element={<Payment />} />  */}
                 
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
